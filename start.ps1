@@ -13,7 +13,6 @@ function Start-NpmCommand {
 }
 
 # Inicia os comandos npm nos diretórios específicos
-Start-NpmCommand -folder "automation-backend-consignado" -command "dev"
 Start-NpmCommand -folder "crm-backend-consignado" -command "dev"
 Start-NpmCommand -folder "crm-frontend-consignado" -command "start"
 

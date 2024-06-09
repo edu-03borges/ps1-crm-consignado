@@ -4,7 +4,6 @@ $basePath = Split-Path -Parent $MyInvocation.MyCommand.Path
 # Define os repositórios e as pastas correspondentes
 $repositories = @{
     "crm-backend-consignado"      = "https://github.com/edu-03borges/crm-backend-consignado.git"
-    "automation-backend-consignado" = "https://github.com/edu-03borges/automation-backend-consignado.git"
     "crm-frontend-consignado"     = "https://github.com/edu-03borges/crm-frontend-consignado.git"
 }
 
